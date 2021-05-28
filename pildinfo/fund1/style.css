@@ -23,7 +23,7 @@ h2{
 
 form{text-align: left; padding:30px;}
 
-.groud-input{ display: grid; padding:5px; }
+.group-input{ display: grid; padding:5px; }
 
 input{
     padding:5px;
@@ -41,4 +41,16 @@ input[type=submit]{
 
 ul{list-style: none; }
 ul li{ margin:20px; }
+
+
+@media (max-width: 750px) {
+    .flex-md{ flex-direction: column; }
+    .flex-item{ width: 100%; }
+}
+
+@media (max-width: 430px) {
+    .container{ width: 100%; margin: 20px auto; }
+    form{padding:10px;}
+}
+
 

@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background: rgb(63, 56, 56);
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  form {
+    width: 500px;
+    margin: auto;
+    background: rgb(213, 215, 216);
+    padding: 20px;
+    margin-top: 20px;
+    color: black;
+    border: 1px solid rgb(121, 53, 53);
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  input {
+    height: 40px;
+    width: 100%;
+    padding-left: 5px;
+    margin-top: 20px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    
+  }
+  
+  input[type="submit"] {
+    width: 50%;
+    font-weight: 600;
+    margin-top: 20px;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    background: #2d5bba;
+    border: 1px solid #224285;
+  }
